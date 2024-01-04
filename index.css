@@ -1,0 +1,551 @@
+*{
+    color: whitesmoke;
+    margin:0px;
+    padding: 0px;
+}
+/*heading and navbar*/
+header .navbar{
+    width: 100%;
+}
+header .navbar-collapse .form-control{
+    margin-left: 418px;
+    width: 300px;
+}
+header .navbar-nav .btn{
+    margin-left: 450px;
+}
+.navbar-nav .icon{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    align-items: center;
+}
+.main a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    
+}
+.main button{
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    padding-top: initial;
+    justify-content: center;
+
+}
+.main ul button{
+    padding-left:1px;
+    padding-right: 1px;
+    margin-top: 5px;
+}
+.main ul button:hover{
+    background: none;
+}
+.main ul a:hover{
+    color: red;
+}
+.main ul button:hover{
+    color: red;
+}
+/*Slogan with background image */
+.image{
+    background: url("https://i.pinimg.com/564x/2d/ac/b1/2dacb19e245a13eff5073ceba1c7f8d4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size:100% 480px;
+    height: 450px;
+    overflow: hidden;
+    object-fit: cover;
+}
+/*Carousel */
+.carousel{
+    background-color: aqua;
+    padding-bottom: 10px;
+    
+}
+.carousel .card:nth-child(n){
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    
+}
+.carousel-item .card-group{
+    width: 1300px;
+    height: 500px;
+    padding: 25px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.carousel-item .card-group h5 {
+    text-align: center;
+    font-weight: 800;
+    margin-top: 5px; 
+    color: white;
+
+}
+.carousel-item .card-group img{
+    height: 250px;
+    width:100%;
+}
+.carousel-item .card-group p{
+    color: white; 
+    text-align: center;
+}
+.carousel-item .card-group .card:hover{
+    background: red;
+    transition: 2s all;
+}
+
+
+.carousel-item .card-group .card:nth-child(n){
+    border-collapse: separate;
+    border: 1px solid black;  
+    margin-right: 20px;  
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rebeccapurple;
+}
+.carousel-item button:nth-child(n){
+    border: 2px solid white; 
+    padding: 6px;
+    margin-left: 70px; 
+    background: transparent;
+}
+.carousel-item button:hover{
+    background: blueviolet;
+    color: blue;
+    transition: 100ms;
+}
+
+.carousel .carousel-inner{
+    margin-left:4px;
+    margin-right: 4px;
+}
+
+
+/* footer styling*/
+
+.container{
+	max-width:100%;
+	margin:auto;
+    height: 180px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #000;
+    padding: 30px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 500;
+	position: relative;
+    margin-left: 32px;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: red;
+}
+.lasthr{
+    width: 95%;
+    margin-left: 28px;
+    
+}
+.copyright{
+    display: flex;
+    font-weight: 800;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+/**All product pages*/
+.Allproducts{
+    background-color: #24262b;
+}
+.heading{
+    background-color: #24262b;
+    display: flex;
+    justify-content: center;
+    
+}
+.row {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.row .card{
+    background-color:rebeccapurple;
+    border: 1px solid white;
+    margin-top: 5px;
+    width: 330px;
+    margin-bottom: 5px;
+}
+.row .card:hover{
+    color: white;
+    border: 3px solid red;
+    transition: all 1ms;
+    
+}
+.row .card p{
+    color: #e91e63;
+}
+.card-body img{
+    height: 250px;
+    width: 100%;
+}
+
+/*Cart page*/
+.carting{
+    display: flex;
+
+}
+.carting .card{
+    width: 100%;
+    background-color: black;
+    border: 2px solid wheat;
+}
+.carting .add-cart{
+    align-items: center;
+    text-align: start;
+  }
+  .add-cart .btn{
+    margin-left: -80px;
+    margin-top: -60px;
+    background-color: rebeccapurple;
+    height: 28px;
+    width: 40px;
+    padding:1px;
+  } 
+  .add-smry
+  {
+    text-align: center;
+  }
+.add-carts .btn{
+    background-color: rebeccapurple;
+    height: 25px;
+    width: 40px;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 2px;
+}
+.add-carts input{
+    width: 50px;
+    height: 25px;
+    margin-top: 10px;
+    border: none;
+}
+.sumry1 .card{
+    width: 400px;
+}
+.sumry1 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Contact us page*/
+.contact-img img{
+    width: 100%;
+}
+.contactus .row{
+    width: 600px;  
+    margin-left: 30%;
+}
+.col .form-group{
+    margin-top: 5px;
+}
+.submit{
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+@media  (max-width:990px) {
+   *{
+        color: red;
+    }
+    .navbar-collapse .dist input{
+        margin-left: 30px;
+    }
+    .navbar-nav .nav-item .btn{
+        margin-left: 100px;
+    }
+    .main ul a:hover{
+        color: red;
+    }
+    
+    .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: #ffffff;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    .womenSkirt .card{
+        width: 98%;
+        margin-left: 8px;
+    }
+    .mensAllproduct .card{
+        width: 100%;
+        margin-left: 8px;
+    }
+    .Allproducts .card{
+        width: 100%;
+        margin-left: 8px;  
+    }
+    .womenDress .card{
+        width: 100%;
+        margin-left: 8px;
+    }
+    .womenAllproducts .card{
+        width: 100%;
+        margin-left: 8px;
+    }
+    .womenPant .card{
+        width: 100%;
+        margin-left: 8px;
+    }
+    .kids .card{
+        width: 100%;
+        margin-left: 8px;
+    }
+    .mensPant .card{
+        width: 100%;
+        margin-left: 8px;
+    }
+    .mensShirt .card{
+        width: 100%;
+        margin-left: 8px;
+        
+    }
+    .add-cart .btn{
+        margin-top: 38px;
+        width: 25px;
+        height: 28px;
+    }
+    .carting .card{
+        width: 390px;
+        height: 250px;
+        margin-left: -25px;
+        margin-top: 5%;
+    }
+    .carting .card img{
+        width: 120px;
+        margin-left: -5px;
+    }
+    .add-carts {
+    height: 15px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: -105px;
+    }
+
+    .add-carts input{
+        width: 40px;
+        height: 25px;
+        margin-top: 10px;
+        border: none;
+    }
+    .sumry1 .card{ 
+        width: 95px;
+       margin-top: 15px;
+        margin-left:-18% ;
+    }
+    .add-smry{
+        font-size: 15px;
+    }
+    .sumry1 a{
+        margin-top: -10px;
+        height: 30px;
+    }
+    .sumry1 .card{
+        width: 280px;
+    }
+    /*Contact us page*/
+    
+    .contactus .contact-img{
+        width: 230px;
+        margin-left: -80px;
+    }
+    .col form{
+        margin-left: -120px;
+        width: 250px;
+        margin-top: -15px;
+    }
+}
+
+
+@media (max-width:432px) {
+    *{
+        color:aqua;
+    }
+    
+    .navbar-collapse .dist input{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 90%;
+    }
+    .navbar-collapse .dist .btn{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-item .btn{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .main{
+        flex-wrap: wrap;
+        margin-left: -38px;
+    }
+    .main ul{
+        margin-left: 2px;
+    }
+    .main ul .btn:hover{
+        color: black;
+    }
+    .image{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .image h3{
+        font-size: 30px;
+    }
+    .carousel{
+        padding-bottom: 10px;
+    }
+    .carousel-item {
+        margin-left: 20px;
+        
+    }
+    .footer{
+        padding-top: 15px;
+        
+    }
+    .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: #ffffff;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    .footer-col{
+        margin-left: 35%;
+    }
+    .container .row{
+        margin-left: -20px;
+     }
+     .copyright{
+        margin-top: 5px;
+     }
+     .lasthr{
+        margin-top: 480px;
+        width: 90%;
+        margin-left: 15px;
+     }
+     .social-links{
+        margin-left: 30px;
+     }
+     /*Cart*/
+     .carting{
+        width: 100%;
+     }
+     .sumry1 {
+        margin-top: 70%;
+        width: 250px;
+        margin-left: -280px;
+    }
+    .carting  .card    
+    {
+        width:308px;
+        
+        margin-left: -35px;
+    }
+    .add-cart .trash{
+        color: red;
+        margin-left: 160px;
+        margin-top: -140px;
+    }
+    .add-carts {
+        width: 5px;
+        margin-top: -45px;
+        margin-left: -100px;
+    }
+    
+     /*Contact us page*/
+     .contactus .contact-img{
+        margin-top: 5px;
+        width:200px ;
+        margin-left: -30px;
+    }
+    .contactus .col form{
+        margin-top: 18px;
+        margin-left: -58px;
+        width: 250px;
+    }
+    .contactus .row {
+        width: fit-content;
+    }
+    /*Small carousel*/
+#small-device .card{
+    width: 87%;    
+}
+}
